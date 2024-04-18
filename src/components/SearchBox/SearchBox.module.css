@@ -1,0 +1,28 @@
+.searchBox {
+  width: 360px; /* Specific width for standardization */
+  height: auto; /* Adjusted to 'auto' for flexibility in content size */
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto; /* Centers the box horizontally */
+  padding: 20px 15px; /* Increased padding for better spacing around content */
+  border: 1px solid #ccc; /* Adds a subtle border for definition */
+  border-radius: 8px; /* Rounded corners for a softer look */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* Light shadow for depth */
+}
+
+.searchBoxName {
+  font-size: 18px; /* Slightly larger for better visibility */
+  font-weight: bold; /* Bold for emphasis */
+  color: #333; /* Soft black for reduced harshness */
+  margin-bottom: 10px; /* Space between title and input field */
+}
+
+.searchInput {
+  height: 40px; /* Maintains height for substantial interactive area */
+  background-color: #fff; /* Keeps background white for clarity */
+  color: #333; /* Text color changed to soft black for consistency */
+  border: 1px solid #ccc; /* Defines the input field clearly */
+  padding: 0 10px; /* Padding inside the input for text alignment */
+  border-radius: 4px; /* Subtle rounded corners */
+}
+

@@ -1,0 +1,22 @@
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: var(--text-color);
+  background: var(--primary-color);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+body {
+  background-color: var(--primary-color);
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

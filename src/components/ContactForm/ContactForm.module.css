@@ -1,0 +1,49 @@
+.form {
+  width: 360px;
+  border-radius: 8px; /* More visually appealing border radius */
+  background-color: #e0e0e0; /* Lighter gray for a softer appearance */
+  padding: 20px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  gap: 24px; /* Maintaining the original gap for consistent spacing */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* Adding shadow for depth */
+}
+
+.span {
+  font-size: 24px; /* Slightly reduced for balance */
+  font-weight: bold; /* Using 'bold' for clarity */
+  color: #333; /* Dark gray for better readability */
+}
+
+.input {
+  height: 40px; /* Adjusted for better clickability and typing comfort */
+  background-color: #fff; /* White background for better contrast */
+  color: #333; /* Consistent text color for better readability */
+  font-size: 16px; /* Slightly reduced to fit more text */
+  border: 1px solid #ccc; /* Subtle border for definition */
+  padding: 0 10px; /* Padding for text inside the input */
+}
+
+.error {
+  font-size: 18px; /* More appropriate size for error messages */
+  font-style: italic; /* Italic style for distinction */
+  color: #d32f2f; /* Specific shade of red for errors */
+}
+
+.btn {
+  background-color: #4caf50; /* More vibrant green */
+  width: 160px;
+  height: 36px; /* Slightly larger for usability */
+  margin: 0 auto;
+  border: none; /* Removing border for a cleaner look */
+  color: white; /* White text for contrast */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Indicates the button is clickable */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.btn:hover {
+  background-color: #388e3c; /* Darker green on hover for interaction feedback */
+}
+
